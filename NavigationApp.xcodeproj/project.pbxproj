@@ -13,6 +13,8 @@
 		1CE988562696224B00C30B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE988542696224B00C30B0E /* Main.storyboard */; };
 		1CE988582696224E00C30B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE988572696224E00C30B0E /* Assets.xcassets */; };
 		1CE9885B2696224E00C30B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE988592696224E00C30B0E /* LaunchScreen.storyboard */; };
+		1CE988632696D56F00C30B0E /* ExtensionAndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE988622696D56F00C30B0E /* ExtensionAndViewController.swift */; };
+		1CE9886726979CE300C30B0E /* ContactManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9886626979CE300C30B0E /* ContactManagerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1CE988572696224E00C30B0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE9885A2696224E00C30B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE9885C2696224E00C30B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE988622696D56F00C30B0E /* ExtensionAndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionAndViewController.swift; sourceTree = "<group>"; };
+		1CE9886626979CE300C30B0E /* ContactManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManagerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 				1CE9884E2696224B00C30B0E /* AppDelegate.swift */,
 				1CE988502696224B00C30B0E /* SceneDelegate.swift */,
 				1CE988522696224B00C30B0E /* ViewController.swift */,
+				1CE988622696D56F00C30B0E /* ExtensionAndViewController.swift */,
 				1CE988542696224B00C30B0E /* Main.storyboard */,
 				1CE988572696224E00C30B0E /* Assets.xcassets */,
 				1CE988592696224E00C30B0E /* LaunchScreen.storyboard */,
+				1CE9886626979CE300C30B0E /* ContactManagerViewController.swift */,
 				1CE9885C2696224E00C30B0E /* Info.plist */,
 			);
 			path = NavigationApp;
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE988632696D56F00C30B0E /* ExtensionAndViewController.swift in Sources */,
+				1CE9886726979CE300C30B0E /* ContactManagerViewController.swift in Sources */,
 				1CE988532696224B00C30B0E /* ViewController.swift in Sources */,
 				1CE9884F2696224B00C30B0E /* AppDelegate.swift in Sources */,
 				1CE988512696224B00C30B0E /* SceneDelegate.swift in Sources */,
